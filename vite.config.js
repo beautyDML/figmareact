@@ -4,7 +4,7 @@ import path from "path";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/your-repo-name/", // 👈 ADD THIS (replace with your actual repo name)
+  base: "/figmareact/", // 👈 ADD THIS (replace with your actual repo name)
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
